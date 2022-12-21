@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .buttondiv{
+    width: 100px;
+    height:17;
+    border: none;
+  }
+  .geneldiv{
+    margin-top: 20;
+  }
+  h1{
+    /* display: inline-block; */
+    /* width: 700; */
+    /* font-size:xx-large; */
+    font-size: 46px;
+  }
+  form{
+    font-size: 17;
+  }
+  

@@ -1,0 +1,93 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>NET <span>FLİX</span> </h1>
+    <p>Thank your for signing up at Netflix.Tell use more about your self</p>
+    <form action="">
+      <div class="endiş">
+        <div class="geneldiv">
+        <label for="name">Name</label> <br />
+        <input
+          class="input"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+        />
+      </div>
+      <div class="geneldiv">
+        <label for="age">Age</label><br />
+        <input
+          class="input"
+          type="number"
+          name="age"
+          id="age"
+          placeholder="Age"
+        />
+      </div>
+      <div class="geneldiv">
+        <label for="email">Email</label><br />
+        <input
+          class="input"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="geneldiv">
+        <label for="select">Content type</label><br />
+        <select class="input" name="select" id="select">
+          <option value="series">Series</option>
+        </select>
+      </div>
+      <div >
+        <label class="beyaz" for="">Movie type</label>
+        <div class="film">
+          <input type="checkbox" name="movie" id="movie" />
+          <label for="movie">Comedy</label><br>
+
+          <input type="checkbox" name="movie" id="movie" />
+          <label for="movie">Action</label><br>
+
+          <input type="checkbox" name="movie" id="movie" checked/>
+          <label for="movie" se>Romance</label>
+        </div> <br>
+      </div>
+      <div>
+        <label class="beyaz" for="">Gender</label>
+        <div class="gender">
+          <input type="radio" name="gender" id="gender" />
+          <label for="gender">Male</label><br>
+
+          <input type="radio" name="gender" id="gender" />
+          <label for="gender">Female</label><br>
+
+          <input type="radio" name="gender" id="gender" />
+          <label for="gender">Other</label>
+        </div>
+      </div>
+      <div class="geneldiv">
+        <label for="">Feed back</label><br>
+
+      <textarea
+        
+        name="comment"
+        id="commet"
+        cols="36"
+        rows="7"
+        placeholder="Any comment"
+      ></textarea></div>
+
+      <div class="submit">
+        <input type="submit" name="submit" id="submit" />
+      </div>
+    </form>
+  </body>
+</html>

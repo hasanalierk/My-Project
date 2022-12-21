@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding: 10;
+}
+img.first-image {
+  height: 20px;
+  width: 20px;
+  
+  
+  
+}
+header div.link1-div a.link1 {
+  font-size: 13px;
+  padding: 10px;
+  text-decoration: none;
+}
+header a.link1:hover {
+  text-decoration: underline;
+}
+header div.link1-div {
+  display: inline-block;
+}
+
+header div.first-div a.link2 {
+  margin-right: 30px;
+  font-size: 13px;
+  text-decoration: none;
+}
+header div.first-div a.link2:hover {
+  text-decoration: underline;
+}
+header div.first-div {
+  display: inline-block;
+  float: right;
+  margin-right: 6px;
+}
+header button.first-button {
+  background-color: rgba(8, 54, 239, 0.709);
+  color: white;
+  font-size: 12px;
+  padding: 2px;
+  border-radius: 2px;
+  border: 1px solid blue;
+  height: 30px;
+  width: 70px;
+  opacity: 0.9;
+}
+header button.first-button:hover{
+    cursor: pointer;
+}
